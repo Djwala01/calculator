@@ -1,0 +1,127 @@
+.bg-container {
+  background-image: linear-gradient(#1d976c, #93f9b9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 400px;
+  width: 500px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.main-heading {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.paragraph {
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+.search-content {
+  outline: none;
+  border-style: solid;
+  border-color: #e4e7eb;
+  border-width: 1px;
+  background-color: transparent;
+  color: #ffffff;
+  height: 45px;
+  width: 300px;
+}
+.button {
+  color: #219a6f;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  height: 60px;
+  width: 220px;
+  border-radius: 10px;
+  border-width: 0px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 992px) {
+  .bg-container {
+    background-image: linear-gradient(#1d976c, #93f9b9);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+
+  .image {
+    height: 400px;
+    width: 500px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+  }
+  .main-heading {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    padding-left: 0px;
+    width: 80%;
+    text-align: left;
+  }
+  .paragraph {
+    color: #ffffff;
+    font-size: 10px;
+    font-family: 'Roboto';
+  }
+  .search-content {
+    outline: none;
+    border-style: solid;
+    border-color: #e4e7eb;
+    border-width: 2px;
+    background-color: transparent;
+    color: #ffffff;
+    height: 45px;
+    width: 350px;
+  }
+  .button {
+    color: #219a6f;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    background-color: #ffffff;
+    height: 60px;
+    width: 220px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-top: 48px;
+  }
+}
